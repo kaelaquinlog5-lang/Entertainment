@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quinlog News Website</title>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background-color: #ffffff;
+      background-image: url(bgenter.jpg);
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+      color: #fcfafa;
+      line-height: 1.8;
+      height: 100%;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      border-bottom: 3px solid #fcfafa;
+      padding-bottom: 20px;
+      margin-bottom: 60px;
+      text-align: center;
+    }
+
+    .site-title {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0 0 8px 0;
+      letter-spacing: -1px;
+    }
+
+    .tagline {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #faf8f8;
+      margin: 0;
+    }
+
+    .article-header {
+      margin-bottom: 40px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .article-category {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #faf8f8;
+    }
+
+    .article-title {
+      font-size: 42px;
+      font-weight: bold;
+      margin: 0 0 20px 0;
+      line-height: 1.2;
+      letter-spacing: -0.5px;
+    }
+
+    .article-subtitle {
+      font-size: 20px;
+      color: #faf9f9;
+      margin: 0 0 25px 0;
+      line-height: 1.5;
+    }
+
+    .article-meta {
+      font-size: 14px;
+      color: #fdfcfc;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .article-body {
+      margin-bottom: 50px;
+    }
+
+    .article-body p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin: 0 0 25px 0;
+      color: #fdfcfc;
+    }
+
+    .pictures-section {
+      margin: 50px 0;
+      padding: 40px 0;
+      border-top: 2px solid #fdfcfc;
+      border-bottom: 2px solid #fdfdfd;
+    }
+
+    .pictures-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0 0 30px 0;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .pictures-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .picture-placeholder {
+      aspect-ratio: 4/3;
+      background-color: #f5f5f5;
+      border: 2px solid #1a1a1a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #666666;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: background-color 0.2s;
+    }
+
+    .picture-placeholder:hover {
+      background-color: #e8e8e8;
+    }
+
+    .picture-caption {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #fdfcfc;
+      text-align: center;
+      font-style: italic;
+    }
+
+    footer {
+      border-top: 2px solid #fdfcfc;
+      margin-top: 60px;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    .copyright {
+      font-size: 14px;
+      color: #fffdfd;
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      .site-title {
+        font-size: 36px;
+      }
+
+      .article-title {
+        font-size: 32px;
+      }
+
+      .article-subtitle {
+        font-size: 18px;
+      }
+
+      .article-body p {
+        font-size: 16px;
+      }
+
+    }
+  </style>
+ </head>
+
+ <body>
+  <div class="container">
+   <header>
+    <h1 class="site-title" id="site-title">KBQ Inc. Quin Articles</h1>
+    <p class="tagline" id="tagline">Student News &amp; Stories</p>
+   </header>
+   <main>
+    <article>
+     <div class="article-header">
+      <div class="article-category" id="article-category">
+       Entertainment
+      </div>
+      <h2 class="article-title" id="article-title">Cinemalaya: Corruption kills artistry</h2>
+      <p class="article-subtitle" id="article-subtitle">The 21st edition of Cinemalaya, long recognized as a platform for fearless Filipino storytelling, opened with a strong call for “accountability and transparency in government funds meant for cultural and artistic development.”</p>
+      <div class="article-meta">
+       By <span id="article-author">Anna Cerezo</span> • ABS-CBN News
+      </div>
+     </div>
+     <div class="article-body">
+      <p id="article-body-1">“The future of Philippine cinema demands it. The voice of artists demands it. Labanan po ng lahat corruption at supportahan ang sining,” Deputy Festival Director Tess Rances said during the opening ceremony held in Mandaluyong City, Friday. “We call on lawmakers to act with urgency against corruption that stifles  creativity and to channel resources towards fostering artistic excellence.” Rances stressed that “corruption kills artistry,” warning that many  Filipino filmmakers are robbed of the chance to showcase their talent as they continue to struggle to bring their stories to life.</p>
+      <p id="article-body-2">Here are the films of Cinemalaya 2025. “While billions of taxpayer money are skimmed from ghost projects under the noses of lawmakers who are supposed to safeguard them, artists scrape the bottom of the pot to bring stories to life,” she admonished. Cinemalaya has long been a launchpad for Filipino filmmakers, with many of its entries gaining international recognition. But unfortunately Rances explained the festival remains financially “fragile” —  with its future nearly cut short by the lack of steady funding.“If not for urgent efforts of Cinemalaya Foundation, FDCP, and CCP to soruce out budget needed  to subisduze the 10 and films the festival would not be possible,” she reasoned. “We urge govt to prioritize allocation of funds to support the arts like Cinemalaya, CCP, and FDCP that nurtures the growth indie film,” she added.</p>
+      <p id="article-body-3">Cinemalaya will screen ten short films and ten full length features from Oct 3-12 at select partner cinemas.</p>
+      <p id="article-body-4">FULL-LENGTH FILMS: “Bloom Where You Are Planted” by Nonilon Abao, “Child No. 82” by Tim Rone, “Cinemartyrs” by Sari Dalena, “Habang Nilalamon ng Hydra ang Kasaysayan” by Dustin Celestino, “Padamlágan” (Night Light) by Jenn Romano, “Paglilits” by Cheska Marfori and Raymund Barcelon, “Open Endings” by Nigel Santos and Keavy Vicente, “Republika ng Pipolipinas” by Renei Dimla, “Raging” by Ryan Machado, “Warla” by Kevin Alambra     </p>
+      <p id="article-body-5">SHORT FILMS: “Ascension from the Office Cubicle” by Hannah Silvestre, “Figat” by Handiong Kapuno, “Hasang” by Daniel de la Cruz, “I’m Best Left Inside My Head” by Elian Idioma, “Kay Basta Angkarabo Yay Bagay Ibat Ha Langit” by Marie Estela Paiso, “Kung Tugnaw ang Kaidalman Sang Lawod” by Seth Andrew Blanca, “Please Keep This Copy” by Miguel Lorenzo Peralta, “Radikals” by Arvin Belarmino, “The Next 24 Hours” by Carl Joseph Papa, “Water Sports” by Whammy Alcazaren </p>
+     </div>
+    </article>
+    <section class="pictures-section">
+     <h3 class="pictures-title" id="pictures-title">Gallery</h3>
+     <div class="pictures-grid">
+      <div>
+       <div class="picture-placeholder">
+        <img src="enter1.jpg" width="230" height="160"> 
+       </div>
+       <p class="picture-caption" id="caption-1">“Raging” by Ryan Machado</p>
+      </div>
+      <div>
+       <div class="picture-placeholder">
+        <img src="enter2.jpg" width="230" height="160"> 
+       </div>
+       <p class="picture-caption" id="caption-2">“Child No. 82” by Tim Rone</p>
+      </div>
+      <div>
+       <div class="picture-placeholder">
+        <img src="enter3.jpg" width="230" height="160"> 
+       </div>
+       <p class="picture-caption" id="caption-3">“Cinemartyrs” by Sari Dalena</p>
+      </div>
+     </div>
+    </section>
+   </main>
+   <footer>
+    <p class="copyright" id="copyright">© 2024 The Daily Chronicle. All rights reserved.</p>
+   </footer>
+  </div>
+  <script>
+    const defaultConfig = {
+      background_color: "#ffffff",
+      text_color: "#1a1a1a",
+      accent_color: "#666666",
+      font_family: "Georgia",
+      font_size: 16,
+      site_title: "KBQ Inc. Quin Articles",
+      tagline: "Student News & Stories",
+      article_category: "Entertainment",
+      article_title: "Cinemalaya: Corruption kills artistry",
+      article_subtitle: "The 21st edition of Cinemalaya, long recognized as a platform for fearless Filipino storytelling, opened with a strong call for “accountability and transparency in government funds meant for cultural and artistic development.”",
+      article_author: "Anna Cerezo",
+      article_body_1: "“The future of Philippine cinema demands it. The voice of artists demands it. Labanan po ng lahat corruption at supportahan ang sining,” Deputy Festival Director Tess Rances said during the opening ceremony held in Mandaluyong City, Friday. “We call on lawmakers to act with urgency against corruption that stifles  creativity and to channel resources towards fostering artistic excellence.” Rances stressed that “corruption kills artistry,” warning that many  Filipino filmmakers are robbed of the chance to showcase their talent as they continue to struggle to bring their stories to life.",
+      article_body_2: "Here are the films of Cinemalaya 2025. “While billions of taxpayer money are skimmed from ghost projects under the noses of lawmakers who are supposed to safeguard them, artists scrape the bottom of the pot to bring stories to life,” she admonished. Cinemalaya has long been a launchpad for Filipino filmmakers, with many of its entries gaining international recognition. But unfortunately Rances explained the festival remains financially “fragile” —  with its future nearly cut short by the lack of steady funding.“If not for urgent efforts of Cinemalaya Foundation, FDCP, and CCP to soruce out budget needed  to subisduze the 10 and films the festival would not be possible,” she reasoned. “We urge govt to prioritize allocation of funds to support the arts like Cinemalaya, CCP, and FDCP that nurtures the growth indie film,” she added.",
+      article_body_3: "Cinemalaya will screen ten short films and ten full length features from Oct 3-12 at select partner cinemas.",
+      article_body_4: "FULL-LENGTH FILMS: “Bloom Where You Are Planted” by Nonilon Abao, “Child No. 82” by Tim Rone, “Cinemartyrs” by Sari Dalena, “Habang Nilalamon ng Hydra ang Kasaysayan” by Dustin Celestino, “Padamlágan” (Night Light) by Jenn Romano, “Paglilits” by Cheska Marfori and Raymund Barcelon, “Open Endings” by Nigel Santos and Keavy Vicente, “Republika ng Pipolipinas” by Renei Dimla, “Raging” by Ryan Machado, “Warla” by Kevin Alambra     ",
+      article_body_5: "SHORT FILMS: “Ascension from the Office Cubicle” by Hannah Silvestre, “Figat” by Handiong Kapuno, “Hasang” by Daniel de la Cruz, “I’m Best Left Inside My Head” by Elian Idioma, “Kay Basta Angkarabo Yay Bagay Ibat Ha Langit” by Marie Estela Paiso, “Kung Tugnaw ang Kaidalman Sang Lawod” by Seth Andrew Blanca, “Please Keep This Copy” by Miguel Lorenzo Peralta, “Radikals” by Arvin Belarmino, “The Next 24 Hours” by Carl Joseph Papa, “Water Sports” by Whammy Alcazaren ",
+      copyright: "© 2024 The Daily Chronicle. All rights reserved.",
+      pictures_title: "Gallery",
+      caption_1: "“Raging” by Ryan Machado",
+      caption_2: "“Child No. 82” by Tim Rone",
+      caption_3: "“Cinemartyrs” by Sari Dalena"
+    };
+
+    </script></body>
+</html>
